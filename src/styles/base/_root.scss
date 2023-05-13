@@ -1,0 +1,42 @@
+:root {
+  /** Font-Families **/
+  --ff-primary: 'Source Sans Pro', sans-serif;
+  --ff-secondary: 'Raleway', sans-serif;
+
+/** Font-Sizes **/
+--fs-md: 1rem;
+--fs-xl: 2rem;
+--fs-xxl: 2.5rem;
+
+/** Font-Weights **/
+--fw-light: 400;
+--fw-heavy: 600;
+
+/** Margins && Paddings **/
+--space-md: 1rem;
+--space-lg: 1.5rem;
+--space-xxl: 2.5rem;
+
+  /** Colors **/
+  --clr-white: #fff;
+  --clr-grey-faint: #f8f8f8;
+  --clr-grey-light-primary: #cccccc;  /*paragraph on black bg*/
+  --clr-grey-light-secondary: #999999;  /*paragraph on white bg*/
+  --clr-grey-medium: #8888;
+  --clr-grey-dark: #555555;
+  --clr-primary: #010302;
+  --clr-secondary: #e5333c;
+  --clr-yellow-base: rgb(247, 247, 6);
+  --clr-green-base: #5ece7b;
+  --clr-blue-base: #3E40A5;
+  --clr-cadetblue-base: #3D8182;
+  --clr-blue-base: #1EB1DD;
+  --clr-burlywood-base: #deb887;
+  --clr-pink-base: #DB7093;
+
+  --box-shadow: 0px 8px 16px 0px rgb(0, 0, 0, 0.2);
+  --border-radius: 0.5rem;
+
+  --container-width: min(90%, 70.5rem);
+  --container-margin: auto;
+}

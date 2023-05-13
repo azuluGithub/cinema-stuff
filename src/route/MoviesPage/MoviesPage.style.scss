@@ -1,0 +1,108 @@
+.MoviesPage {
+    &-Hero {
+        position: relative;
+        height: 100vh;
+        background-color: var(--clr-primary);
+    }
+
+    &-Header {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 2;
+    }
+
+    &-MediaServices {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        top: 0;
+        display: flex;
+        align-items: center;
+    }
+
+    &-MSSplitted {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    &-MediaService {
+        width: 100%;
+        height: 351px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &:nth-child(even) {
+            margin-left: var(--space-xxl);
+        }
+    }
+
+    &-MSContent {
+        width: 220px;
+    }
+
+    &-MSImage {
+        width: 272px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &-MSImg {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    &-MSTitle {
+        font-family: var(--ff-primary);
+        font-weight: var(--fw-heavy);
+        font-size: 28px;
+        line-height: 35px;
+        text-transform: uppercase;
+        color: var(--clr-white);
+    }
+
+    &-MSAlias {
+        font-family: var(--ff-secondary);
+        font-weight: var(--fw-light);
+        font-size: var(--fs-md);
+        line-height: 20px;
+        color: var(--clr-grey-dark);
+    }
+
+    &-MSAddress {
+        margin: var(--space-md) 0;
+    }
+
+    &-MSAddressText {
+        font-weight: var(--fw-light);
+        font-size: var(--fs-md);
+        color: var(--clr-grey-light-primary);
+    }
+
+    &-MSPriceContainer {
+        display: flex;
+        align-items: center;
+    }
+
+    &-MSPrice {
+        color: var(--clr-secondary);
+        font-family: var(--ff-secondary);
+        font-weight: var(--fw-light);
+        font-size: var(--fs-xl);
+        line-height: 20px;
+    }
+
+    &-MSPriceSubLine {
+        margin-right: 0.5rem;
+        background-color: var(--clr-secondary);
+        height: 2px;
+        width: 50px;
+    }
+}

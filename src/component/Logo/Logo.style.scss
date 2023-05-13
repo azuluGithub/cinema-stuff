@@ -1,0 +1,18 @@
+.Logo {
+    height: 80px;
+    align-items: center;
+
+    &-Logo {
+        height: 100%;
+        object-fit: contain;
+    }
+
+   
+    @media only screen and (max-width: 40rem) {
+        &-Img  {
+            width: 76%;
+            object-fit: cover;
+        }
+    }
+}
+

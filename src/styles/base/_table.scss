@@ -1,0 +1,60 @@
+/********** TABLE **********/
+
+.TableWrapper {
+  box-shadow: var(--box-shadow);
+  padding: var(--space-md);
+}
+
+.Table {
+  width: 100%;
+  margin-top: var(--space-md);
+}
+
+.THeadData {
+  font-size: var(--fs-md);
+  font-weight: 600;
+  padding: var(--fs-md) 0;
+  border: 1px solid var(--clr-grey-faint);
+  background-color: var(--clr-grey-faint);
+  color: var(--clr-primary-medium);
+}
+
+.TableData {
+  border: 1px solid var(--clr-grey-faint);
+  font-size: 14px;
+}
+
+.TableDataImg {
+  width: var(--space-xxl);
+  height: var(--space-xxl);
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid var(--clr-primary-medium);
+}
+
+.TableActions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.TableActionsDelete,
+.TableActionsView {
+  color: var(--clr-white);
+  padding: 4px var(--space-sm);
+  font-size: 14px;
+  margin: var(--space-sm);
+  cursor: pointer;
+
+  &:hover {
+    filter: opacity(0.5);
+  }
+}
+
+.TableActionsDelete {
+  background-color: var(--clr-failure);
+}
+
+.TableActionsView {
+  background-color: var(--clr-neutral);
+}

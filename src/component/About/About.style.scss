@@ -1,0 +1,29 @@
+.About {
+    padding: var(--space-xxxl) 0;
+
+    &-Title {
+        text-align: center;
+        font-size: var(--fs-xl);
+        font-weight: 600;
+        color: var(--clr-secondary);
+        margin-bottom: var(--space-lg);
+    }
+
+    &-Divider {
+        margin: auto;
+        width: 60px;
+        height: 4px;
+        background-color: var(--clr-grey-light-primary);
+    }
+
+    &-Content {
+        margin-top: var(--space-xxl);
+    }
+
+    &-ContentParagraph {
+        font-weight: var(--fw-light);
+        font-size: var(--fs-md);
+        line-height: 24px;
+        color: var(--clr-grey-light-secondary);
+    }
+}

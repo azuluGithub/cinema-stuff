@@ -1,0 +1,110 @@
+/********** FORMS **********/
+
+.FormMainBox {
+  display: flex;
+  justify-content: center;
+  padding: var(--space-xxxl) 0;
+}
+
+.FormContainer {
+  width: 600px;
+  padding: var(--fs-xl);
+  box-shadow: var(--box-shadow);
+}
+
+.FormTitle {
+  margin-bottom: var(--space-lg);
+}
+
+.FormInputContainer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: var(--space-lg);
+}
+
+.FormLabel {
+  color: var(--clr-text);
+  margin-bottom: var(--space-sm);
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+/********** FORM INPUT WITH BORDER **********/
+
+.FormInput,
+.FormTextArea {
+  padding: var(--space-md) var(--space-sm);
+  outline: none;
+  border: 1px solid var(--clr-grey-light);
+  font-size: var(-fs-md);
+  font-family: var(--ff-primary);
+  font-weight: 500;
+}
+
+/********** FORM INPUT WITH BORDER-BOTTOM ONLY **********/
+
+.FormInputBottom {
+  background-color: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid var(--clr-grey-light);
+  width: 100%;
+  padding: var(--space-sm) 0;
+  outline: none;
+}
+
+.FormInputBottom:focus {
+  border-bottom: 2px solid var(--clr-primary-medium);
+}
+
+.FormButtonContainer {
+  margin: var(--space-sm) 0 var(--space-md) 0;
+}
+
+.FormButton {
+  padding: var(--space-md) var(--space-xxl);
+  font-size: var(--fs-md);
+  text-transform: capitalize;
+}
+
+/********** FORM LINKS **********/
+
+.FormSecondaryLink,
+.FormDefaultLink {
+  line-height: var(--space-lg);
+  text-decoration: underline;
+
+  &:hover {
+    cursor: pointer;
+    opacity: 0.6;
+  }
+}
+
+.FormSecondaryLink {
+  color: #444;
+}
+
+.FormDefaultLink {
+  color: #777;
+}
+
+@media only screen and (max-width: 40em) {
+  .FormContainer {
+    width: 80%;
+    padding: var(--fs-md);
+  }
+
+  .FormInput,
+  .FormTextArea {
+    padding: var(--space-md);
+  }
+
+  .FormInputContainer {
+    margin-bottom: var(--space-md);
+  }
+
+  .FormButton {
+    padding: var(--space-md) var(--space-xl);
+  }
+}

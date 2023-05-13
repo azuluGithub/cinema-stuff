@@ -1,0 +1,69 @@
+.Companies {
+    &-PartnersContainer {
+        overflow: hidden;
+        background-color: var(--clr-primary);
+    }
+
+    &-Partners {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &-CompaniesImage {
+        width: 60%;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &-CompaniesImg {
+        // width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    &-CompaniesImage {
+        &_FadeIn,
+        &_Appear {
+             transition: opacity 250ms linear, transform 150ms linear 200ms;
+        }
+
+        &_FadeIn {
+            opacity: 0;
+            transform: translateY(120px);
+        }
+        
+        &_Appear {
+             opacity: 1;
+             transform: translateY(0);
+        }
+   }
+
+   &-Content {
+        width: 35%;
+        font-weight: var(--fw-light);
+        font-size: var(--fs-md);
+        line-height: 24px;
+        color: var(--clr-grey-light-primary);
+        opacity: 0;
+
+        &_FadeIn,
+        &_Appear {
+             transition: opacity 250ms linear, transform 500ms linear 250ms;
+        }
+
+        &_FadeIn {
+            opacity: 0;
+            transform: translateY(120px);
+        }
+        
+        &_Appear {
+             opacity: 1;
+             transform: translateY(0);
+        }
+   }
+}
+
+

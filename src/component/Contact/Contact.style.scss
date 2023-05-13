@@ -1,0 +1,87 @@
+.Contact {
+    background-color: var(--clr-white);
+
+    &-Title {
+        font-size: var(--fs-xl);
+        font-weight: 600;
+        color: var(--clr-primary);
+    }
+
+    &-Divider {
+        width: 60px;
+        height: 4px;
+        margin: var(--space-lg) 0 var(--space-xxl);
+        background-color: var(--clr-secondary);
+    }
+
+    &-InfoItem {
+        display: flex;
+        justify-content: space-between;
+        padding: var(--space-lg);
+        border-bottom: 1px solid var(--clr-grey-light);
+    }
+
+    &-InfoItemImage {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--clr-secondary);
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        box-shadow: var(--box-shadow);
+    }
+
+    &-InfoItemImg {
+        height: 80%;
+        object-fit: contain;
+    }
+
+    &-InfoItemKey {
+        text-transform: capitalize;
+        font-weight: 500;
+        font-size: var(--fs-lg);
+        color: var(--clr-text);
+        padding-bottom: var(--space-sm);
+    }
+
+    &-InfoItemValue {
+        color: #666;
+    }
+
+    &-BottomLine {
+        height: 2px;
+        width: 100%;
+        background-color: var(--clr-grey-light-primary);
+    }
+
+    &-FormInput {
+      padding: var(--space-md);
+      outline: none;
+      border: 1px solid var(--clr-grey-light-primary);
+      border-radius: var(--border-radius);
+      font-size: var(-fs-md);
+      font-family: var(--ff-secondary);
+      font-weight: 500;
+    }
+
+    &-TextArea {
+        height: 80px;
+        padding: var(--space-md);
+        outline: none;
+        border: 1px solid var(--clr-grey-light-primary);
+        border-radius: var(--border-radius);
+        font-size: var(-fs-md);
+        font-family: var(--ff-secondary);
+        font-weight: 500;
+    }
+
+    &-Button {
+        background-color: var(--clr-secondary) !important;
+        box-shadow: var(--box-shadow);
+
+        &:hover {
+            filter: opacity(0.5);
+        }
+    }
+}

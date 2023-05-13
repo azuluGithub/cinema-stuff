@@ -1,0 +1,41 @@
+.NoMatch {
+    background-color: var(--clr-white);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 50;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &-Container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &-Header {
+        font-size: var(--fs-xxxl);
+    }
+
+    &-Subtitle {
+        font-family: var(--ff-secondary);
+        font-style: normal;
+        font-weight: 600;
+        color: var(--clr-primary);
+        line-height: var(--space-xl);
+        font-size: var(--fs-lg);
+        margin: var(--space-xxl) 0 var(--space-xl);
+        max-width: 80%;
+    }
+
+    &-Button {
+
+        &:hover {
+            filter: opacity(0.5);
+        }
+    }
+}

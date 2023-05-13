@@ -1,0 +1,53 @@
+.AboutPage {
+    &-Bg {
+        position: relative;
+        height: 336px;
+        background-color: var(--clr-primary);
+    }
+
+    &-Header {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    &-PlayerButton {
+        width: 100px;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        box-shadow: var(--box-shadow);
+        position: absolute;
+        top: 280px;
+        left: calc(50% - 50px);
+        z-index: 2;
+        background-color: var(--clr-grey-faint);
+        cursor: pointer;
+
+        &:hover {
+            filter: opacity(0.6);
+        }
+    }
+
+    &-PlayerContainer {
+        position: absolute;
+        top: 136px;
+        height: 400px;
+        left: 8%;
+        right: 8%;
+    }
+
+    &-BgImg {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        border-radius: var(--border-radius);
+    }
+
+    &-EmptyBox {
+        height: 200px;
+    }
+}

@@ -1,0 +1,40 @@
+main {
+  min-height: calc(100vh - var(--header-height));
+}
+
+/********** CONTAINER PADDED **********/
+
+.ContainerWrapper {
+  margin-inline: auto;
+  width: min(90%, 70.5rem);
+}
+
+.PaddedContainer {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+/********** SPLIT CONTAINERS EQUALLY **********/
+
+.Split {
+  display: flex;
+  flex-direction: row;
+
+  & > * {
+    flex-basis: 100%;
+  }
+
+  & > * + * {
+    margin-left: 2rem;
+  }
+}
+
+@media only screen and (max-width: 40em) {
+  .Split {
+    flex-direction: column;
+
+    & > * + * {
+      margin-left: 0;
+    }
+  }
+}

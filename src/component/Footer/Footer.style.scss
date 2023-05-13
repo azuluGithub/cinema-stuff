@@ -1,0 +1,42 @@
+:root {
+    --footer-height: 60px;
+}
+
+.Footer {
+    height: var(--footer-height);
+    background-color: var(--clr-primary);
+
+    &-Spacer {
+        height: 1px;
+        margin: auto;
+        background-color: var(--clr-white);
+    }
+
+    &-FooterContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: var(--footer-height);
+    }
+
+    &-Components {
+        display: flex;
+    }
+
+    &-Image {
+        margin-right: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &-TextContainer {
+        display: flex;
+        align-items: center;
+        color: var(--clr-white);
+    }
+    
+    &-TextName {
+        font-weight: 600;
+    }
+}
