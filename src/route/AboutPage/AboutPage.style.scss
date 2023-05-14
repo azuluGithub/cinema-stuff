@@ -40,6 +40,21 @@
         right: 8%;
     }
 
+        &-Video {
+            width: 100%;
+            height: 70vh;
+    }
+
+    &-Offline {
+            color: var(--clr-text);
+            font-weight: 500;
+            font-size: var(--space-lg);
+            text-align: center;
+            padding: var(--space-xxxl) 0;
+            background-color: var(--clr-white);
+            font-family: var(--ff-secondary);
+    }
+
     &-BgImg {
         object-fit: cover;
         width: 100%;
