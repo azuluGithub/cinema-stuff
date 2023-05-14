@@ -82,19 +82,12 @@ class AboutPageComponent extends PureComponent {
             <div>
                 { isModalOpen && 
                     <CustomModal toggleModal={this.toggleModal.bind(this)}>
-                    {
-                        !navigator.onLine ?
-                            <p className='AboutPage-Offline'>
-                                {'Your Network is currently offline'}
-                            </p>
-                            :
-                            <video className='AboutPage-Video' controls autoPlay>
-                                <source
-                                    type='video/mp4'
-                                    src={`${process.env.PUBLIC_URL}/assets/videos/intro.mp4`}
-                                />
-                            </video>
-                    }
+                        <video className='AboutPage-Video' controls autoPlay>
+                            <source
+                                type='video/mp4'
+                                src={`${process.env.PUBLIC_URL}/assets/videos/intro.mp4`}
+                            />
+                        </video>
                     </CustomModal>
                 }
             </div>

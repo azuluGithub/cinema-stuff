@@ -16,7 +16,7 @@
     box-shadow: var(--box-shadow);
   }
 
-  &-ViewLessIcon {
+  &-CloseIcon {
     position: absolute;
     top: var(--space-md);
     right: var(--space-md);
@@ -27,11 +27,16 @@
     align-items: center;
     border-radius: 20px;
     box-shadow: var(--box-shadow);
-    background-color: var(--clr-grey-faint);
+    background-color: #cccccc;
     cursor: pointer;
 
     &:hover {
         filter: opacity(0.6);
     }
-}
+  }
+
+  &-CloseIconImg {
+    width: 20px;
+    height: 20px;
+  }
 }

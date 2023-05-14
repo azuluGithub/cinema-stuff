@@ -5,18 +5,18 @@ import './CustomModal.scss';
 class CustomModal extends PureComponent {
     renderContent() {
         const { children, toggleModal } = this.props;
-        const close = `${process.env.PUBLIC_URL}/assets/icons/menu/red-cross.png`;
+        const close = `${process.env.PUBLIC_URL}/assets/icons/menu/close.png`;
 
         return (
             <div className="CustomModal">
                 <div className="CustomModal-Content">
                     { children }
                     <div
-                        className='CustomModal-ViewLessIcon'
+                        className='CustomModal-CloseIcon'
                         onClick = {toggleModal}
                     >
                         <img 
-                            className='' 
+                            className='CustomModal-CloseIconImg' 
                             src={close} 
                             alt='close icon'
                         />
