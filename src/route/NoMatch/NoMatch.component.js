@@ -35,11 +35,11 @@ class NoMatchComponent extends PureComponent {
 
         return (
             <Link
-                to="/"
+                to="/movies"
                 className="Link"
             >
                 <div className='Button NoMatch-Button'>
-                    { 'Back To Home Page' }
+                    { 'Go To Movies' }
                 </div>
             </Link>
         );

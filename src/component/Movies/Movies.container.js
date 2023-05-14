@@ -7,7 +7,10 @@ class Movies extends PureComponent {
     movies = [
         {
             id: 'avatar',
-            url: '/404-page-not-found',
+            url: {
+                labiaUrl: '',
+                sterkUrl: '',
+            },
             title: "avatar 2",
             imgUrl: `${process.env.PUBLIC_URL}/assets/images/movie-list/avatar.jpg`,
             pg_rating: ["PG-13"],
@@ -17,7 +20,10 @@ class Movies extends PureComponent {
         },
         {
             id: 'central-intelligence',
-            url: '/404-page-not-found',
+            url: {
+                labiaUrl: '',
+                sterkUrl: '',
+            },
             title: "central intelligence",
             imgUrl: `${process.env.PUBLIC_URL}/assets/images/movie-list/central-intelligence.png`,
             pg_rating: ["PG-13"],
@@ -27,7 +33,10 @@ class Movies extends PureComponent {
         },
         {
             id: 'criminal',
-            url: '/404-page-not-found',
+            url: {
+                labiaUrl: '',
+                sterkUrl: '',
+            },
             title: "criminal",
             imgUrl: `${process.env.PUBLIC_URL}/assets/images/movie-list/criminal.jpg`,
             pg_rating: ["R"],
@@ -37,7 +46,10 @@ class Movies extends PureComponent {
         },
         {
             id: 'ella-enchanted',
-            url: '/404-page-not-found',
+            url: {
+                labiaUrl: '',
+                sterkUrl: '',
+            },
             title: "ella enchanted",
             imgUrl: `${process.env.PUBLIC_URL}/assets/images/movie-list/ella-enchanted.jpg`,
             pg_rating: ["PG"],
@@ -47,7 +59,10 @@ class Movies extends PureComponent {
         },
         {
             id: 'goodfellas',
-            url: '/404-page-not-found',
+            url: {
+                labiaUrl: '',
+                sterkUrl: '',
+            },
             title: "good fellas",
             imgUrl: `${process.env.PUBLIC_URL}/assets/images/movie-list/goodfellas.jpg`,
             pg_rating: ["R"],
@@ -57,6 +72,10 @@ class Movies extends PureComponent {
         },
         {
             id: 'hair-spray',
+            url: {
+                labiaUrl: '',
+                sterkUrl: '',
+            },
             title: "hair spray",
             imgUrl: `${process.env.PUBLIC_URL}/assets/images/movie-list/hair-spray.jpg`,
             pg_rating: ["PG"],
@@ -66,7 +85,10 @@ class Movies extends PureComponent {
         },
         {
             id: 'hop',
-            url: '/404-page-not-found',
+            url: {
+                labiaUrl: '',
+                sterkUrl: '',
+            },
             title: "hop",
             imgUrl: `${process.env.PUBLIC_URL}/assets/images/movie-list/hop.jpg`,
             pg_rating: ["PG"],
@@ -76,6 +98,10 @@ class Movies extends PureComponent {
         },
         {
             id: 'interstellar',
+            url: {
+                labiaUrl: '',
+                sterkUrl: '',
+            },
             title: "interstellar",
             imgUrl: `${process.env.PUBLIC_URL}/assets/images/movie-list/interstellar.jpg`,
             pg_rating: ["PG-13"],
@@ -85,7 +111,10 @@ class Movies extends PureComponent {
         },
         {
             id: 'predestination',
-            url: '/404-page-not-found',
+            url: {
+                labiaUrl: '',
+                sterkUrl: '',
+            },
             title: "predestination",
             imgUrl: `${process.env.PUBLIC_URL}/assets/images/movie-list/predestination.jpg`,
             pg_rating: ["R"],
@@ -95,7 +124,10 @@ class Movies extends PureComponent {
         },
         {
             id: 'the-boss-baby',
-            url: '/404-page-not-found',
+            url: {
+                labiaUrl: '',
+                sterkUrl: '',
+            },
             title: "the boss baby",
             imgUrl: `${process.env.PUBLIC_URL}/assets/images/movie-list/the-boss-baby.jpg`,
             pg_rating: ["PG"],
@@ -114,7 +146,10 @@ class Movies extends PureComponent {
         },
         {
             id: 'warm-bodies',
-            url: '/404-page-not-found',
+            url: {
+                labiaUrl: '',
+                sterkUrl: '',
+            },
             title: "warm bodies",
             imgUrl: `${process.env.PUBLIC_URL}/assets/images/movie-list/warm-bodies.png`,
             pg_rating: ["PG-13"],
@@ -124,7 +159,7 @@ class Movies extends PureComponent {
         },
         {
             id: 'zootopia',
-            url: '/404-page-not-found',
+            url: '',
             title: "zootopia",
             imgUrl: `${process.env.PUBLIC_URL}/assets/images/movie-list/zootopia.jpg`,
             pg_rating: ["PG"],
@@ -134,7 +169,10 @@ class Movies extends PureComponent {
         },
         {
             id: 'john-wick',
-            url: 'https://www.sterkinekor.com/details/HO00002615/cinema/the-zone-@-rosebank/john-wick-chapter-four',
+            url: {
+                labiaUrl: '',
+                sterkUrl: 'https://www.sterkinekor.com/details/HO00002615/cinema/the-zone-@-rosebank/john-wick-chapter-four',
+            },
             title: "john wick 4",
             imgUrl: `${process.env.PUBLIC_URL}/assets/images/movie-list/john-wick.jpg`,
             pg_rating: ["R"],
@@ -144,7 +182,10 @@ class Movies extends PureComponent {
         },
         {
             id: 'hypnotic',
-            url: 'https://www.webtickets.co.za/v2/Event.aspx?itemid=1529362143',
+            url: {
+                labiaUrl: 'https://www.webtickets.co.za/v2/Event.aspx?itemid=1529362143',
+                sterkUrl: '',
+            },
             title: "hypnotic",
             imgUrl: `${process.env.PUBLIC_URL}/assets/images/movie-list/hypnotic.jpg`,
             pg_rating: ["R"],

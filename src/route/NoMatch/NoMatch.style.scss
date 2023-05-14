@@ -18,7 +18,7 @@
     }
 
     &-Header {
-        font-size: var(--fs-xxxl);
+        font-size: 4rem;
     }
 
     &-Subtitle {
@@ -26,9 +26,9 @@
         font-style: normal;
         font-weight: 600;
         color: var(--clr-primary);
-        line-height: var(--space-xl);
-        font-size: var(--fs-lg);
-        margin: var(--space-xxl) 0 var(--space-xl);
+        line-height: 2rem;
+        font-size: 1.5rem;
+        margin: 2rem 0;
         max-width: 80%;
     }
 
