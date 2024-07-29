@@ -10,7 +10,7 @@ class FooterComponent extends PureComponent {
         <p className='Footer-Text'>
           {'2023 '}
           <span className='Footer-TextName'>
-            {' | Makunyiwe Ke - Group Six '}
+            {' | Arnold Zulu '}
           </span>
         </p>
       </div>
