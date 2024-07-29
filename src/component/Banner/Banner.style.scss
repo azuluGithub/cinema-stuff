@@ -38,7 +38,7 @@
 
     &-ContentTop {
         animation-duration: 6s;
-        animation-name: contentTopMoving;
+        // animation-name: contentTopMoving;
         animation-iteration-count: infinite;
 
         @keyframes contentTopMoving {
@@ -97,7 +97,7 @@
             -webkit-text-stroke: 0px rgba(255, 255, 255, 0.42);
             border-right: 2px solid var(--clr-primary);
             overflow: hidden;
-            animation: contentHeadingAnimation 6s linear infinite;
+            // animation: contentHeadingAnimation 6s linear infinite;
         }
 
         @keyframes contentHeadingAnimation {
@@ -121,7 +121,7 @@
         margin: var(--space-lg) 0;
 
         animation-duration: 6s;
-        animation-name: contentParagraphMoving;
+        // animation-name: contentParagraphMoving;
         animation-iteration-count: infinite;
 
         @keyframes contentParagraphMoving {
@@ -144,7 +144,7 @@
 
     &-ContentBottom {
         animation-duration: 6s;
-        animation-name: contentBottomMoving;
+        // animation-name: contentBottomMoving;
         animation-iteration-count: infinite;
 
         @keyframes contentBottomMoving {

@@ -17,8 +17,8 @@ class BannerComponent extends PureComponent {
                 <span className='Banner-ContentSubText'>{'The Tenth'}</span>
                 <div className='Banner-ContentSubLine'></div>
               </div>
-              <h2 data-text='EUROPEAN◠FILM◡FESTIVAL' className='Banner-ContentHeading'>
-                {'EUROPEAN◠FILM◡FESTIVAL'}
+              <h2 data-text='EUROPEAN FILM FESTIVAL' className='Banner-ContentHeading'>
+                {'EUROPEAN FILM FESTIVAL'}
               </h2>
             </div>
             <p className='Banner-ContentParagraph'>
